@@ -1,0 +1,17 @@
+body {
+    padding-top: 170px;
+    padding-left: 220px;
+}
+
+.hidden{
+    display:none;
+}
+
+#table-results {
+    width: 100%;
+}
+
+.group-btn .btn-search,
+.group-btn .btn-delete {
+    cursor: pointer;
+}
