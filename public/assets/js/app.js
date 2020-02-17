@@ -1,5 +1,5 @@
 $(function() {
-     $("#search-click").click(function(event){
+     $("#search-form").submit(function(event){
          event.preventDefault();
         $.ajax({
             type: "POST",
